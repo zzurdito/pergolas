@@ -265,6 +265,8 @@ body{
 
 .page__galeria{
     width: 100vw;
+    background-color: linear-gradient(180deg, rgba(139,69,19,1) 0%, rgba(245,245,220,1) 29%, rgba(245,245,220,1) 85%, rgba(85,107,47,0.72) 100%) !important;
+  
 }
 
 .imagen__galeria{
@@ -286,4 +288,38 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
 
+}
+
+.social-media{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    color: white;
+}
+
+.navbar-custom{
+    margin:20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navbar-links a{
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    color: var(--blanco) !important;
+}
+
+
+
+.navbar-logo img{
+    border-radius: 50%;
 }
