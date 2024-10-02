@@ -1,4 +1,6 @@
 import logo from '../images/cropped-logo-pergolas-canor-1.webp'
+import { Link } from 'react-router-dom'
+
 
 function Nav() {
   return (
@@ -8,18 +10,10 @@ function Nav() {
             <a className="logo navbar-brand" href="#"><img src={logo} alt="Logo" /></a>
             <div className="collapse navbar-collapse d-flex justify-content-evenly" id="navbarNav">
             <ul className="navbar-nav">
-                <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Inicio</a>
-                </li>
-                <li className="nav-item">
-                <a className="nav-link" href="#">Galeria</a>
-                </li>
-                <li className="nav-item">
-                <a className="nav-link" href="#">Nosotros</a>
-                </li>
-                <li className="nav-item">
-                <a className="nav-link" aria-disabled="true">Contactos</a>
-                </li>
+                <Link to='/home'>Inicio</Link>
+                <Link to='/galeria'>Galeria</Link>
+                <Link to='/nosotros'>Nosotros</Link>
+                <Link to='/contacto'>Contacto</Link>
             </ul>
             </div>
         </div>
