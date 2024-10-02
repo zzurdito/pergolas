@@ -325,3 +325,18 @@ body{
 .navbar-logo img{
     border-radius: 50%;
 }
+
+.galeria__title, .galeria__desc{
+    text-shadow: 4px 4px 5px #0005;
+}
+
+.galeria__desc{
+    text-align: center !important;
+    margin: 0 auto !important;
+    color: var(--blanco);
+    font-size: 32px;
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 50px;
+    width: 80%;
+}
