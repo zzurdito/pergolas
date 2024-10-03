@@ -1,10 +1,22 @@
+import Footer from './Footer'
 import Nav from './Nav'
+import Nosotros from './Nosotros'
 
 function Page__Nosotros() {
   return (
     <>
-        <Nav />
-        <div>Page__Nosotros</div>
+        
+        
+
+      <div className="header-pag">
+      <Nav />
+      <h1 className="galeria__title">SOBRE NOSOTROS</h1>
+      </div>
+      <Nosotros/>
+
+        
+      <Footer />
+        
     </>
   )
 }

@@ -1,11 +1,18 @@
+import Footer from "./Footer"
 import Nav from "./Nav"
 
 function Page__Contacto() {
   return (
-    <>
+    <div className="page__contacto">
         <Nav />
-        <div>Page__Contacto</div>
-    </>
+        <div className="header-pag">
+        
+
+        </div>
+        <Footer />
+        
+        
+    </div>
   )
 }
 

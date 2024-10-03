@@ -1,5 +1,4 @@
 
-
 function Footer() {
   return (
     <div className="footer">
@@ -9,15 +8,29 @@ function Footer() {
         </div>
         <div className="footer__box">
             <div className="footer__title">Contacto</div>
-            <div className="footer__desc">Camino Viejo de Valencia
+            <div className="footer__desc">
+                        <div>Camino Viejo de Valencia
                         Benissa, Alicante 03720
+                        </div>
+                        <div>
                         965 730 087
+                        </div>
+                        <div>
                         Calle Naranjo
                         Murcia, Murcia 30011
+                        </div>
+                        <div>
                         968 842 335
+                        </div>
+                        <div>
                         info@pergolascanor.es
+                        </div>
+                        <div>
                         614 30 63 04
+                        </div>
+                        <div>
                         620 45 39 05
+                        </div>
                         </div>
         </div>
         <div className="footer__box">
