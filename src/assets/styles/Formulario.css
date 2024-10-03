@@ -1,0 +1,20 @@
+.formulario{
+    margin:50px;
+    background-color: var(--verde);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.formulario form div label {
+    color: var(--blanco) !important;
+}
+.btn-formulario{
+    background-color: var(--naranja) !important;
+    margin-top: 20px ;
+}
