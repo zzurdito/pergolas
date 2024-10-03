@@ -1,0 +1,21 @@
+.boton-llamanos{
+    background-color: var(--naranja);
+    border-radius: 10px;
+    opacity: 89%;
+    width: 233px;
+    height: 75px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0px 0px 15px black ;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.boton-llamanos-txt{
+    text-align: center;
+    color: var(--gris);
+    font-size: 16px;
+    margin: 0px;
+    text-shadow: 2px 2px 0px black;
+}
