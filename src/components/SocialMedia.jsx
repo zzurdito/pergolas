@@ -1,4 +1,4 @@
-
+import '../assets/styles/SocialMedia.css'
 
 function SocialMedia() {
   return (

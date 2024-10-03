@@ -1,6 +1,9 @@
 import logo from '../images/cropped-logo-pergolas-canor-1.webp'
 import { Link } from 'react-router-dom'
 import SocialMedia from './SocialMedia'
+import BotonPresupuesto from './BotonPresupuesto'
+import BotonLlamanos from './BotonLlamanos'
+import '../assets/styles/Nav.css'
 
 
 function Nav() {
@@ -14,7 +17,14 @@ function Nav() {
                 <Link to='/nosotros'>Nosotros</Link>
                 <Link to='/contacto'>Contacto</Link>
             </div>
-        <SocialMedia/>
+          <div className='contenedor-contactos'>
+          <SocialMedia/>
+          <div className='contenedor-botones'>
+            <BotonPresupuesto />
+            <BotonLlamanos />
+          </div>
+          </div>
+        
         </nav>
     </div>
   )
