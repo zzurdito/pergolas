@@ -1,4 +1,6 @@
 import './App.css'
+import 'leaflet/dist/leaflet.css';
+
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Page__Galeria from './components/Page__Galeria'

@@ -1,0 +1,14 @@
+.politica__privacidad{
+    display:flex;
+    flex-direction: column;
+    margin: 50px;
+    background-color: var(--marron);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.p__privacidad{
+    color: var(--blanco) !important;
+}
