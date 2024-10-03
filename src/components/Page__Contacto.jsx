@@ -1,3 +1,4 @@
+import Footer from "./Footer"
 import Nav from "./Nav"
 import '../assets/styles/Page__Contacto.css'
 import img from '../images/galeria/img-20240531-wa0044.webp'
