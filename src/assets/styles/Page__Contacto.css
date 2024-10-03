@@ -1,0 +1,47 @@
+.mini__desc{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 100px 50px;
+    gap: 20px;
+}
+
+.__desc_txt{
+    font-size: 24px;
+    flex: 1;
+    color: var(--blanco);
+    text-shadow: 4px 4px 5px #0005;
+    margin: 0 100px;
+}
+
+.contacto__img{
+    border: 2px solid var(--marron);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 50px;
+
+}
+
+.contacto__img img{
+    height: 700px;
+    width: calc(100% - 100px);
+}
+
+.mapas{
+    margin: 0 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:100px;
+}
+
+.box__map{
+    flex:1;
+    border: 2px solid var(--marron);
+}
+
+.map__txt{
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
