@@ -6,6 +6,7 @@
     --gris: #D3D3D3;
     --marron: #8B4513;
     --naranja: #E27D60;
+    --gris-oscuro: #e4e4d7;
 }
 
 *{
@@ -32,8 +33,9 @@
 .boton-presupuesto-txt{
     text-align: center;
     color: var(--gris);
-    padding: 0 !important;
     font-size: 16px;
+    margin: 0px;
+    text-shadow: 2px 2px 0px black;
 }
 
 .boton-whatsapp{
@@ -143,7 +145,14 @@ body{
     flex-direction: column;
     width: 50%;
 
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blue(4px);
+    background-color: var(--gris-oscuro);
+    border-radius: 4px;
+    padding: 50px;
+    box-shadow: 0px 0px 15px 5px rgba(133, 133, 133, 0.5);
 }
+
 
 .title-servicio{
     font-size: 22px;
@@ -157,6 +166,7 @@ body{
     height: 300px;
     width: 400px;
     border: 3px solid var(--marron);
+    box-shadow: 0px 0px 10px 2px rgba(82, 33, 0, 0.5);
 }
 
 .img-servicio img{
@@ -199,9 +209,18 @@ body{
     color: var(--gris);
 }
 
+.footer__txt{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    color: black;
+}
+
 .footer__desc{
     font-size: 14px;
     color: #000000 !important;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .menu__footer{
@@ -296,6 +315,8 @@ body{
     justify-content: space-around;
     gap: 20px;
     color: white;
+    cursor: pointer;
+    margin: 0 20px;
 }
 
 .navbar-custom{
@@ -324,11 +345,11 @@ body{
     border-radius: 50%;
 }
 
-.galeria__title, .galeria__desc{
+.__title, .__desc{
     text-shadow: 4px 4px 5px #0005;
 }
 
-.galeria__desc{
+.__desc{
     text-align: center !important;
     margin: 0 auto !important;
     color: var(--blanco);
@@ -337,4 +358,20 @@ body{
     font-style: italic;
     padding-top: 50px;
     width: 80%;
+}
+
+.header__desc{
+    padding-top: 0 !important;
+}
+
+.whatsapp-btn{
+    color: rgb(41, 220, 41);
+}
+
+.facebook-btn{
+    color: rgb(32, 87, 240);
+}
+
+.instagram-btn{
+    color: rgb(216, 4, 75);
 }
