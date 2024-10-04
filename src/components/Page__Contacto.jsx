@@ -4,7 +4,6 @@ import '../assets/styles/Page__Contacto.css'
 import img from '../images/galeria/img-20240531-wa0044.webp'
 import Formulario from "./Formulario"
 import Map from "./Map"
-import Footer from "./Footer"
 import PoliticaDePrivacidad from "./PoliticaDePrivacidad"
 
 function Page__Contacto() {
