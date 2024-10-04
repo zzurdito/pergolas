@@ -1,5 +1,5 @@
 import './App.css'
-import './leaflet/dist/leaflet.css';
+import 'leaflet/dist/leaflet.css';
 
 
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-              <Router basename="/pergolas">
+              <Router basename="/pergolas/">
                 <Routes>
                     <Route path="/home" element={<Page__Home/>}></Route>
                     <Route path="/galeria" element={<Page__Galeria />}></Route>
