@@ -2,7 +2,9 @@ import './App.css'
 import 'leaflet/dist/leaflet.css';
 
 
+
 import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+
 import Page__Galeria from './components/Page__Galeria'
 import Page__Home from './components/Page__Home'
 import Page__Contacto from './components/Page__Contacto'
