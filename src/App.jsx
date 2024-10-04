@@ -2,6 +2,7 @@ import './App.css'
 import 'leaflet/dist/leaflet.css';
 
 
+
 import { Route } from 'wouter';
 import Page__Galeria from './components/Page__Galeria'
 import Page__Home from './components/Page__Home'
