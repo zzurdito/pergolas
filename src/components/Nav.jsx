@@ -1,5 +1,5 @@
 import logo from '../images/cropped-logo-pergolas-canor-1.webp'
-import { Link } from 'wouter'
+import {Link } from 'react-router-dom'
 import SocialMedia from './SocialMedia'
 import BotonPresupuesto from './BotonPresupuesto'
 import BotonLlamanos from './BotonLlamanos'
@@ -12,10 +12,10 @@ function Nav() {
         <nav className="navbar-custom">
             <a className="navbar-logo" href="#"><img src={logo} alt="Logo" /></a>
             <div className="navbar-links" id="">
-                <Link href='/home'>Inicio</Link>
-                <Link href='/galeria'>Galeria</Link>
-                <Link href='/nosotros'>Nosotros</Link>
-                <Link href='/contacto'>Contacto</Link>
+                <Link to='/home'>Inicio</Link>
+                <Link to='/galeria'>Galeria</Link>
+                <Link to='/nosotros'>Nosotros</Link>
+                <Link to='/contacto'>Contacto</Link>
             </div>
           <div className='contenedor-contactos'>
           <SocialMedia/>
