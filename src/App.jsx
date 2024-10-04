@@ -12,9 +12,9 @@ function App() {
 
   return (
     <>
-              <Router>
+              <Router basename="/pergolas">
                 <Routes>
-                    <Route path="/home" element={<Page__Home/>}></Route>
+                    <Route path="/" element={<Page__Home/>}></Route>
                     <Route path="/galeria" element={<Page__Galeria />}></Route>
                     <Route path="/contacto" element={<Page__Contacto/>}></Route>
                     <Route path="/Nosotros" element={<Page__Nosotros />}></Route>
